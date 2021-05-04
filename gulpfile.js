@@ -13,7 +13,7 @@ const jsLinter = require(`gulp-eslint`);
 const reload = browserSync.reload;
 
 let validateHTML = () => {
-    return src(`app/html/*.html`)
+    return src(`/app/html/*.html`)
         .pipe(htmlValidator({"verbose": true}));
 };
 
