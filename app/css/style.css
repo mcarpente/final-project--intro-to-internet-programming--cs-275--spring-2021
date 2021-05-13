@@ -1,4 +1,9 @@
+html {
+  position: relative;
+}
+
 :root {
+  position: static;
   --font-size--default: 1.1rem;
   --color--text: #222;
   --background-color--primary: #fff;
@@ -13,6 +18,19 @@ body {
   font-family: var(--font--reading);
   font-weight: 100;
   text-align: center;
+}
+
+#diamond-containter {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 1px;
+  line-height: .5;
+  border: 2px solid black;
+  width: auto;
+  height: auto;
+  white-space: pre;
+  font-family: monospace;
 }
 
 h1,
